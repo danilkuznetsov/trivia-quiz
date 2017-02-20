@@ -15,3 +15,5 @@ Demo - [Client Trivia Quiz API](https://danilkuznetsov.github.io/trivia-quiz/)
 1. Clone repo to your workspace.
 2. Use `npm install` to install core dependencies.
 3. Write code and run test. Use `spec/SpecRunner.html` to run jasmine tests for application.
+
+### To prevent crucial problems with gh-pages deploy, use https protocol in your AJAX request link (https://jservice.io/api/random). You will get a warning about insecure connection (cause trivia doesn't support https) but you will get a response.
