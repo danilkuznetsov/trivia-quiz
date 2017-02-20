@@ -1,0 +1,22 @@
+{
+  "name": "trivia-quiz-game",
+  "version": "1.0.0",
+  "description": "Part of task_02 for Kottans fullstack developer course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilkuznetsov/kottans_web_test/task_02/trivia.git"
+  },
+  "author": "Danil Kuznetsov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilkuznetsov/kottans_web_test/issues"
+  },
+  "homepage": "https://github.com/danilkuznetsov/kottans_web_test/task_02/trivia#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  }
+}

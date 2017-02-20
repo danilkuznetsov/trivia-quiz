@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trivia Quiz Game</title>
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <h1 class="brand"> QUIZ GAME</h1>
+                </div>
+             </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="one-half column u-text-left">
+                <p class="game-status count-answer">Correct answers: 0</p>
+            </div>
+            <div class="one-half column u-text-right">
+                <p class="game-status count-question">Total Questions: 0</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns u-text-center">
+                <h2 class="quiz-id">Question ID</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns u-text-center">
+                <h3 class="quiz-category">Question Category</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns u-text-center">
+                <p>Attention in responses all spaces are replaced by _</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns u-text-center">
+                <p class="quiz-question">Text of question</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <button class="button-skip-quiz">Skip</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <p class="answer-status answer-status-correct answer-status-hidden u-text-center">Answer status</p>
+                <ul class="characters-list solution u-text-center"></ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <ul class="characters-list clues u-text-center"></ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <button class="button-next-quiz button-next-quiz--hidden">Next quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/helpers.js"></script>
+    <script src="js/storage-engine.js"></script>
+    <script src="js/store-service.js"></script>
+    <script src="js/model.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

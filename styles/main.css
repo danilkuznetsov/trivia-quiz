@@ -1,0 +1,85 @@
+.navbar {
+    padding-top: 15px;
+    width:100%;
+    background-color:#2d9bf0;
+}
+
+h1.brand {
+    font-size: 25px;
+    color:#fff;
+}
+
+button.button-skip-quiz {
+    color: #fff;
+    background-color: #2d9bf0;
+    border-color: #2d9bf0;
+    width: 100%;
+}
+
+button.button-next-quiz {
+    color: #fff;
+    background-color: green;
+    border-color: green;
+    width: 100%;
+}
+
+button.button-next-quiz--hidden {
+    display: none;
+}
+
+ul.characters-list {
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+}
+
+ul.characters-list li {
+    display: inline-block;
+    margin: 3px;
+}
+
+.quiz-id {
+    font-size: 20px;
+}
+
+.quiz-question {
+    background: #F6F5F7;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+}
+
+.quiz-category {
+    font-size: 18px;
+}
+
+.answer-status {
+    padding: 15px;
+}
+
+.answer-status-correct {
+    color: green;
+}
+
+.answer-status-incorrect {
+    color: red;
+}
+.answer-status-hidden {
+    display: none;
+}
+
+.game-status {
+    padding: 15px;
+}
+
+.u-text-center {
+    text-align: center;
+}
+
+.u-text-right {
+    text-align: right;
+}
+
+.u-text-left {
+    text-align: left;
+}
