@@ -65,6 +65,13 @@
 
     };
 
+    StoreService.prototype.strToRandomArraySymbols = function(str){
+        return str.split('')
+                  .sort(function() {
+                      return 0.5 - Math.random();
+                  });
+    };
+
     // export to window
     window.app = window.app || {};
     window.app.StoreService = StoreService;

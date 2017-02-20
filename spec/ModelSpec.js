@@ -16,7 +16,7 @@ describe('model ', function() {
             countQuestion: 100,
         });
 
-        storeServiceMock = jasmine.createSpyObj('storeServiceMock', ['readAll', 'readByKey', 'saveByKey', 'getQuestion']);
+        storeServiceMock = jasmine.createSpyObj('storeServiceMock', ['readAll', 'readByKey', 'saveByKey', 'getQuestion','strToRandomArraySymbols']);
         storeServiceMock.readByKey.and.returnValue({
             countAnswer: 100,
             countQuestion: 100,
@@ -30,6 +30,10 @@ describe('model ', function() {
                 quizAnswer: 'answer',
                 quizAnswerByChar: ['a', 'n', 's', 'w', 'e', 'r']
             });
+        });
+
+        storeServiceMock.strToRandomArraySymbols.and.callFake(function(str){
+                return str.split('');
         });
 
     });

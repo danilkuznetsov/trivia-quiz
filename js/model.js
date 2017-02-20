@@ -35,11 +35,7 @@
             self._correctAnswer = receivedQuestion.quizAnswer;
             self._solution = [];
 
-            receivedQuestion.quizAnswerByChar = self._correctAnswer
-                .split('')
-                .sort(function() {
-                    return 0.5 - Math.random();
-                });
+            receivedQuestion.quizAnswerByChar = self._storeService.strToRandomArraySymbols(self._correctAnswer);
             cbSuccess.call(this, receivedQuestion);
         }, cbFail);
     };
